@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #d5c8f6, #f4a1db);
+    height: 100vh;
+}
+
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid 1px rgb(236, 226, 226);
+    margin-top: 100px;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #32284d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #424643;
+}
+
+
+
+.user {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(128, 93, 158);
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(255, 0, 76);
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(144, 168, 234);
+}
+
+
